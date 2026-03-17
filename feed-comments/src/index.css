@@ -1,0 +1,100 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* CSS */
+
+#app {
+  background-color: #efefef;
+  color: #1a1a1a;
+  width: 50vw;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+#app hr {
+  width: 70%;
+}
+
+.app {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 2px solid #b5b5b5;
+}
+
+.app h1 {
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+.app input,
+.app #content {
+  background-color: #fff;
+  color: #2a2a2a;
+  border: 2px solid #b5b5b5;
+  margin-bottom: 2rem;
+}
+
+.app input {
+  height: 2.5rem;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.app #content + input {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.app #content + input:hover {
+  background-color: #d8d8d8;
+  border: 2px solid transparent;
+}
+
+#content {
+  width: 80%;
+  flex: 1;
+  overflow-y: auto;
+
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.comentarios {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  margin: 1rem;
+  overflow: auto;
+}
+
+.comentarios div {
+  margin-top: 0.5rem;
+}
