@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Intel Core i9-14900K",
+    "description": "Top de linha da 14ª geração com 24 núcleos e clock de até 6.0GHz, focado em entusiastas e workstations.",
+    "price": 4199.0
+  },
+  {
+    "id": 2,
+    "name": "AMD Ryzen 9 7950X",
+    "description": "Poderoso processador de 16 núcleos e 32 threads, excelente para renderização 3D e multitarefa extrema.",
+    "price": 3850.0
+  },
+  {
+    "id": 3,
+    "name": "Intel Core i7-14700K",
+    "description": "Equilíbrio ideal entre jogos e produtividade com novos núcleos de eficiência adicionados na 14ª geração.",
+    "price": 2890.0
+  },
+  {
+    "id": 4,
+    "name": "AMD Ryzen 7 7800X3D",
+    "description": "Considerado um dos melhores processadores para jogos do mundo devido à sua tecnologia 3D V-Cache.",
+    "price": 2750.0
+  },
+  {
+    "id": 5,
+    "name": "Intel Core i5-13600K",
+    "description": "O campeão do custo-benefício para usuários avançados, entregando performance de i7 de gerações anteriores.",
+    "price": 1950.5
+  },
+  {
+    "id": 6,
+    "name": "AMD Ryzen 5 7600X",
+    "description": "Processador de entrada para a plataforma AM5, oferecendo altas taxas de quadros em jogos modernos.",
+    "price": 1420.0
+  },
+  {
+    "id": 7,
+    "name": "Intel Core i3-13100F",
+    "description": "Opção econômica e eficiente para builds de entrada focadas em tarefas básicas e jogos leves.",
+    "price": 680.0
+  },
+  {
+    "id": 8,
+    "name": "AMD Ryzen 5 5600G",
+    "description": "Possui o melhor gráfico integrado da categoria, permitindo jogar sem a necessidade de uma placa de vídeo dedicada.",
+    "price": 899.0
+  },
+  {
+    "id": 9,
+    "name": "Intel Core i5-12400F",
+    "description": "Um clássico da 12ª geração que continua sendo uma das opções mais baratas e sólidas para PC Gamer.",
+    "price": 950.0
+  },
+  {
+    "id": 10,
+    "name": "AMD Ryzen 9 5900X",
+    "description": "Alta performance da arquitetura Zen 3, ainda muito relevante para edição de vídeo e streaming.",
+    "price": 2100.0
+  }
+]
